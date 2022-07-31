@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #11203E;
+    overflow-y: scroll;
+}
+
+.banner {
+    height: 520px;
+    width: auto;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_title {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+main {
+    width: 930px;
+    align-self: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.article_startup, .article_rocket, .article_saturn {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article_image {
+    align-self: center;
+    width: 72px;
+    height: 72px;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+button {
+    margin-top: 20px;
+    align-self: center;
+    background-color: #11203E;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: none;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    height: 125px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_text {
+    font-size: 17px;
+    font-weight: 300;
+}
